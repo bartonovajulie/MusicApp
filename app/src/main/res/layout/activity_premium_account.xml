@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LayoutParent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp.MainActivity" >
+
+    <!-- HEADLINE -->
+    <TextView
+        style="@style/Headline"
+        android:text="@string/premium_account" />
+    <!-- / HEADLINE -->
+
+    <TextView
+        style="@style/ActivityDescription"
+        android:text="@string/premium_account_description" />
+
+
+</LinearLayout>

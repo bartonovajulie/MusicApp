@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Headlines -->
+    <string name="app_name">MusicApp</string>
+    <string name="main_activity">Musical Structure</string>
+    <string name="recently_played">Recently played</string>
+    <string name="playlists">Playlists</string>
+    <string name="premium_account">Premium account</string>
+
+    <!-- Descriptions -->
+    <string name="main_activity_description">The main screen displays the main menu.</string>
+    <string name="recently_played_description">The RecentlyPlayed activity displays last played songs.</string>
+    <string name="playlists_description">The Playlists activity displays user\'s lists of songs.</string>
+    <string name="premium_account_description">The PremiumAccount activity displays possibility to upgrade account. The upgrade is paid. For a payment can be used In-app Billing. The service allows sell digital content. </string>
+
+</resources>

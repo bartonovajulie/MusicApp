@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LayoutParent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp.MainActivity">
+
+    <!-- HEADLINE -->
+    <TextView
+        style="@style/Headline"
+        android:text="@string/main_activity" />
+    <!-- /HEADLINE -->
+
+    <!-- DESCRIPTION -->
+    <TextView
+        style="@style/ActivityDescription"
+        android:text="@string/main_activity_description" />
+    <!-- /DESCRIPTION -->
+
+    <!-- MENU -->
+    <TextView
+        android:id="@+id/text_view_recently_played"
+        style="@style/CategoryStyle"
+        android:text="@string/recently_played" />
+
+    <TextView
+        android:id="@+id/text_view_playlists"
+        style="@style/CategoryStyle"
+        android:text="@string/playlists" />
+
+    <TextView
+        android:id="@+id/text_view_premium_account"
+        style="@style/CategoryStyle"
+        android:text="@string/premium_account" />
+    <!-- /MENU -->
+
+</LinearLayout>
+
