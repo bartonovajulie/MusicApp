@@ -16,5 +16,20 @@
         style="@style/ActivityDescription"
         android:text="@string/premium_account_description" />
 
+    <!-- MENU -->
+    <TextView
+        android:id="@+id/text_view_main"
+        style="@style/CategoryStyle"
+        android:text="@string/main_activity" />
+    <TextView
+        android:id="@+id/text_view_recently_played"
+        style="@style/CategoryStyle"
+        android:text="@string/recently_played" />
+
+    <TextView
+        android:id="@+id/text_view_playlists"
+        style="@style/CategoryStyle"
+        android:text="@string/playlists" />
+    <!-- /MENU -->
 
 </LinearLayout>
